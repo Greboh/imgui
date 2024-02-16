@@ -4,8 +4,8 @@ project "ImGui"
     cppdialect "C++20"
     staticruntime "on"
 
-	targetdir ("%{wks.location}/bin/" .. OutputDir .. "/%{prj.name}")
-	objdir ("%{wks.location}/bin-int/" .. OutputDir .. "/%{prj.name}")
+	targetdir ("bin/" .. OutputDir .. "/%{prj.name}")
+	objdir ("bin-int/" .. OutputDir .. "/%{prj.name}")
 
   files
     {
@@ -18,7 +18,9 @@ project "ImGui"
         "imstb_rectpack.h",
         "imstb_textedit.h",
         "imstb_truetype.h",
-        "imgui_demo.cpp"
+        "imgui_demo.cpp",
+        "imgui_tables.cpp",
+        -- "imgui_widgets.cpp",
     }
     
     filter "system:windows"

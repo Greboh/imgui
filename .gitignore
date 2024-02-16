@@ -1,3 +1,10 @@
+#Self defined
+bin/*
+bin-int/*
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+
 ## OSX artifacts
 .DS_Store
 
@@ -11,6 +18,8 @@ imgui.ini
 examples/*/Debug/*
 examples/*/Release/*
 examples/*/x64/*
+
+
 
 ## Visual Studio artifacts
 .vs
@@ -57,3 +66,5 @@ examples/example_sdl2_metal/example_sdl2_metal
 examples/example_sdl2_opengl2/example_sdl2_opengl2
 examples/example_sdl2_opengl3/example_sdl2_opengl3
 examples/example_sdl2_sdlrenderer/example_sdl2_sdlrenderer
+*.vcxproj
+*.vcxproj
