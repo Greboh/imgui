@@ -54,20 +54,20 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>..\..\..\bin\windows-x86_64\Debug\ImGui\</OutDir>
-    <IntDir>..\..\..\bin-int\windows-x86_64\Debug\ImGui\</IntDir>
+    <OutDir>bin\windows-x86_64\Debug\ImGui\</OutDir>
+    <IntDir>bin-int\windows-x86_64\Debug\ImGui\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Staging|x64'">
-    <OutDir>..\..\..\bin\windows-x86_64\Staging\ImGui\</OutDir>
-    <IntDir>..\..\..\bin-int\windows-x86_64\Staging\ImGui\</IntDir>
+    <OutDir>bin\windows-x86_64\Staging\ImGui\</OutDir>
+    <IntDir>bin-int\windows-x86_64\Staging\ImGui\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>..\..\..\bin\windows-x86_64\Release\ImGui\</OutDir>
-    <IntDir>..\..\..\bin-int\windows-x86_64\Release\ImGui\</IntDir>
+    <OutDir>bin\windows-x86_64\Release\ImGui\</OutDir>
+    <IntDir>bin-int\windows-x86_64\Release\ImGui\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
@@ -138,6 +138,7 @@
     <ClCompile Include="imgui.cpp" />
     <ClCompile Include="imgui_demo.cpp" />
     <ClCompile Include="imgui_draw.cpp" />
+    <ClCompile Include="imgui_tables.cpp" />
     <ClCompile Include="imgui_widgets.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
