@@ -1,6 +1,14 @@
 ## OSX artifacts
 .DS_Store
 
+# User defined files
+examples/*/Debug/*
+examples/*/Release/*
+examples/*/x64/*
+bin/
+bin-int/
+
+
 ## Dear ImGui artifacts
 imgui.ini
 
@@ -8,11 +16,7 @@ imgui.ini
 *.o
 *.obj
 *.exe
-examples/*/Debug/*
-examples/*/Release/*
-examples/*/x64/*
-bin/
-bin-int/
+
 
 ## Visual Studio artifacts
 .vs
